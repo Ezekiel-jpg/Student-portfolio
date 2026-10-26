@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Planner</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="projects.html">Projects</a>
+        <a href="planner.html">Academic Planner</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="planner-container">
+        <h1>Academic Planner</h1>
+
+      <div class="info-card">  
+        <form id="taskForm">
+            <label for="taskName">Task name</label>
+            <input type="text" id="taskName" required placeholder="Your Full Name">
+
+            <label for="taskDescription">Task description</label>
+            <textarea id="taskDescription" rows="4" required></textarea>
+
+            <button type="submit" id="saveButton">Save Task</button>
+            <button type="button" id="cancelButton" hidden>Cancel Edit</button>
+        </form>
+      </div>
+      
+      <div style="margin-top: 30px; padding: 0 10px;">
+        <h2>Tasks</h2>
+        <ul id="taskList"></ul>
+        <p id="emptyMessage">No tasks saved yet.</p>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
