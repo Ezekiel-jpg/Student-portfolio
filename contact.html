@@ -49,14 +49,14 @@
         <br><br>
 
         <label for="phone">Phone Number:</label>
-        <input type="tel" id="phone" required placeholder="Your Phone Number">
+        <input type="tel" id="phone" required placeholder="Your Phone Number" inputmode="numeric" pattern="[0-9]+" maxlength="15" title="Please enter a valid phone number">
         <br><br>
 
         <label for="message">Message:</label>
         <textarea id="message" required placeholder="Type your message"></textarea>
         <br><br>
 
-        <button type="submit" class="submit-btn">Save Contact Info</button>
+        <button type="submit" class="submit-btn">Submit</button>
     </form>
   </div>
  </div> 
