@@ -459,22 +459,22 @@ tbody tr:hover {
   }
 
 nav {
-    display: flex;
+    display: inlineflex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
 img {
-    max-width: 100%;
+    max-width: 200%;
     height: auto;
 }
 
 h1 {
-    font-size: 26px;
+    font-size: 16px;
 }
 
 h2 {
-    font-size: 21px;
+    font-size: 11px;
 }
 
 p {
@@ -482,11 +482,11 @@ p {
     line-height: 1.6;
 }
 .card {
-    width: 100%;
+    width: 50%;
     box-sizing: border-box;
 }
 
 button {
-    max-width: 100%;
+    max-width: 200%;
 }
 }
