@@ -443,3 +443,50 @@ tbody tr:hover {
     padding: 25px;
     box-sizing: border-box;
 }
+
+@media screen and (max-width: 768px)  {
+  body {
+     margin: 0;
+     padding: 0;
+     width: 100%;
+     overflow-x: hidden;
+  }
+
+  .container {
+    width: 95%;
+    margin: auto;
+    padding: 10px;
+  }
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-size: 26px;
+}
+
+h2 {
+    font-size: 21px;
+}
+
+p {
+    font-size: 15px;
+    line-height: 1.6;
+}
+.card {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    max-width: 100%;
+}
+}
