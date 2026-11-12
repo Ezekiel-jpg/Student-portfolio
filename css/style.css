@@ -553,8 +553,8 @@ button {
   }
 
   .profile-img {
-    width: 100px;
-    height: 140px;
+    width: 110px;
+    height: 145px;
     object-fit: cover;
   }
 }
