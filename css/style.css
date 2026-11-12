@@ -167,9 +167,9 @@ button {
 }
 
 .profile-img {
-    width: 240px;
-    height: 240px;
-    border-radius: 12px;
+    width: 120px;
+    height: 160px;
+    border-radius: 15px;
     object-fit: cover;
     border: 4px solid #0b2545;
 }
@@ -550,5 +550,11 @@ button {
 
 .project-link {
     font-size: 14px;
+  }
+
+  .profile-img {
+    width: 100px;
+    height: 140px;
+    object-fit: cover;
   }
 }
